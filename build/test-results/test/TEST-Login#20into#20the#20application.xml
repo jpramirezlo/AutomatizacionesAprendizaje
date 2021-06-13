@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login into the application" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-13T23:13:19" hostname="DESKTOP-M95827O" time="0.197">
+  <properties/>
+  <testcase name="Succesful login" classname="Login into the application" time="0.197"/>
+  <system-out><![CDATA[Feature: Login into the application
+
+  Scenario: Succesful login                          ?[90m# src/test/resources/features/login/login.feature:3?[0m
+18:13:19.757 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Succesful login(login-into-the-application;succesful-login)
+-------------------------------------------------------------------
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mSergey?[0m?[32m has an active account?[0m               ?[90m# Login.sergey_has_an_active_account(String)?[0m
+    ?[32mWhen ?[0m?[32mhe sends their valid credentials?[0m            ?[90m# Login.he_sends_their_valid_credentials()?[0m
+    ?[32mThen ?[0m?[32mhe should have access to manage his account?[0m ?[90m# Login.he_should_have_access_to_manage_his_account()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
