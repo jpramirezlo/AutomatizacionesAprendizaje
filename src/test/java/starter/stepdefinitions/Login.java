@@ -6,10 +6,13 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import starter.dashboard.CreditAvailable;
+import starter.dashboard.OverviewData;
 import starter.login.DoLogin;
 import starter.navigation.NavigateTo;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class Login {
 
@@ -37,7 +40,8 @@ public class Login {
 
     @Then("he should have access to manage his account")
     public void he_should_have_access_to_manage_his_account() {
-
+        System.out.println("*********** " + CreditAvailable.value().answeredBy(theActorInTheSpotlight()));
+        System.out.println("*********** " + OverviewData.creditAvaible().answeredBy(theActorInTheSpotlight()));
     }
 
 }

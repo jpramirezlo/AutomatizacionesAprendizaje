@@ -1,17 +1,23 @@
 starter/search/SearchForm.java
  starter.search.SearchForm
+starter/search/SearchResultList.java
+ starter.search.SearchResultList
+starter/stepdefinitions/SearchOnDuckDuckGoStepDefinitions.java
+ starter.stepdefinitions.SearchOnDuckDuckGoStepDefinitions
+starter/dashboard/CreditAvailable.java
+ starter.dashboard.CreditAvailable
 starter/search/SearchResult.java
  starter.search.SearchResult
+starter/dashboard/FinancialOverview.java
+ starter.dashboard.FinancialOverview
 starter/navigation/ApplitoolsGoHomePage.java
  starter.navigation.ApplitoolsGoHomePage
 starter/CucumberTestSuite.java
  starter.CucumberTestSuite
 starter/login/DoLogin.java
  starter.login.DoLogin
-starter/search/SearchResultList.java
- starter.search.SearchResultList
-starter/stepdefinitions/SearchOnDuckDuckGoStepDefinitions.java
- starter.stepdefinitions.SearchOnDuckDuckGoStepDefinitions
+starter/dashboard/OverviewData.java
+ starter.dashboard.OverviewData
 starter/search/SearchFor.java
  starter.search.SearchFor
 starter/stepdefinitions/Login.java
